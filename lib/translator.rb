@@ -1,6 +1,6 @@
 require "pry"
 require 'yaml'
-emoticons = YAML.load_file('lib/emoticons.yml')
+emoticons = YAML.load_file('./lib/emoticons.yml')
 emoticons
 binding.pry
 puts emoticons
