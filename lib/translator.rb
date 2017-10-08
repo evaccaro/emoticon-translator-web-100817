@@ -3,9 +3,10 @@ require 'yaml'
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
   emoji = emoticons
-  answer = {'get_meaning'=> {}, 'get_emoticon' => {}}
+  'get_meaning'=> {}
+  'get_emoticon' => {}
   emoji.each do |word, emot|
-  'get_meaning'[emot[1]] => word
+
 end
 answer
 end
