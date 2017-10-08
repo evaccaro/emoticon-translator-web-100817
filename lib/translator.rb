@@ -6,7 +6,7 @@ def load_library(file_path)
   'get_meaning'=> {}
   'get_emoticon' => {}
   emoji.each do |word, emot|
-    get_meaning[emot[1]] => word
+    get_meaning[emot[1]] = word
 end
 get_meaning
 end
