@@ -3,7 +3,7 @@ emoticons = YAML.load_file('lib/emoticons.yml')
 emoticons
 
 def load_library(file_path)
-  japanese = emoticons.values
+
   answer = {'get_meaning'=> {}, 'get_emoticon' => {}}
 end
 
