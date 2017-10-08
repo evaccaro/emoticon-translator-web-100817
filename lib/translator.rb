@@ -8,7 +8,7 @@ def load_library(file_path)
   emoji.each do |word, emot|
     get_meaning[emot[1]] => word
 end
-answer
+get_meaning
 end
 
 def get_japanese_emoticon
