@@ -6,6 +6,7 @@ def load_library(file_path)
   emoji.each do |word, emot|
   'get_meaning'{emot[1] => word}
 end
+end
 
   answer = {'get_meaning'=> {}, 'get_emoticon' => {}}
 end
