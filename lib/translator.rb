@@ -1,10 +1,12 @@
 require 'yaml'
 
-
-
 def load_library(file_path)
-
   emoticons = YAML.load_file(file_path)
+  emoticons.each do |word, emot|
+    
+  'get_meaning'.keys = emot[1]
+end
+  
   answer = {'get_meaning'=> {}, 'get_emoticon' => {}}
 end
 
